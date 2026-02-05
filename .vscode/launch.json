@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run DashboardApp (JavaFX)",
+      "type": "java",
+      "request": "launch",
+
+      "javaExec": "C:/Program Files/Java/jdk-21/bin/java.exe",
+
+      "args": [
+        "--module-path",
+        "C:/Users/ADMIN/Downloads/openjfx-21.0.10_windows-x64_bin-sdk/javafx-sdk-21.0.10/lib",
+        "--add-modules",
+        "javafx.controls,javafx.fxml",
+        "-cp",
+        "${workspaceFolder}/bin",
+        "com.example.DashboardApp"
+      ]
+    }
+  ]
+}
